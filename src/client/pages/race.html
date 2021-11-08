@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Start Your Pod Racer Simulation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/index.css">
+    <link rel="stylesheet" href="assets/stylesheets/form.css">
+    <link rel="stylesheet" href="assets/stylesheets/create.css">
+    <link rel="stylesheet" href="assets/stylesheets/progress.css">
+    <link rel="stylesheet" href="assets/stylesheets/results.css">
+    <script src="/assets/javascript/index.js" charset="utf-8"></script>
+</head>
+
+<body id="race">
+    <header id="hero">
+        <main>
+            <section>
+                <form id="create-race">
+
+                    <h3>Choose your biome</h3>
+                    <ul class="cards-list" id="tracks">
+                        <!-- filled via js -->
+                    </ul>
+                    
+                    
+                    <label for="course" class="sr-only">Race Course:</label>
+                    <select id="course" name="course" class="required sr-only">
+                        <option value="trackname" id="trackname">test</option>
+                    </select>
+    
+                    <h3>Choose your racer</h3>
+                    <ul class="cards-list" id="racers">
+                        <!-- filled via js -->
+                    </ul>
+                    <label for="podRacer" class="sr-only">Pod Racer:</label>
+                    <select id="podRacer" name="podRacer" class="required sr-only">
+                        <option value="test5">test</option>
+                    </select>
+                    <button class="btn btn-primary btn-lg" type="submit" id="submit-create-race">Start Race</button>
+                </form>
+            </section>
+        </main>
+        <div id="image-credit-container">
+            Image by <a id="image-credit" href="https://pixabay.com/users/allinonemovie-201131/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1106259">allinonemovie</a> from <a id="image-credit" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1106259">Pixabay</a>
+        </div>
+    </header>
+</body>
+</html>
