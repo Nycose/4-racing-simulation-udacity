@@ -1,4 +1,6 @@
-# Welcome to the One and only UdaciRacer Simulation Game
+# UdaciRacer Simulation Game
+
+This project is for the [Udacity Intermediate JavaScript Developer Nanodegree](https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032).
 
 ## Project Introduction
 
